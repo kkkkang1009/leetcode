@@ -20,8 +20,11 @@ class Solution:
                         p = s[pre + 1:post]
                     even = False
                     pre += 1
+
+                    # 뒤집은 것과 다르면 더이상 진행 X
                     if s[pre: post + 1] != s[pre: post + 1][::-1]:
                         break
+                    # 같으면 하나씩 더 테스트
                     else:
                         pre -= 1
                         post += 1
@@ -30,6 +33,7 @@ class Solution:
                     if len(s[pre + 1: post]) > len(p):
                         p = s[pre + 1: post]
                     break
+            # 이미 반 넘게 테스트 + 결과가 충분하여 더이상 안 돌려도됨
             if (i + len(p) / 2) > len(s):
                 break
 
