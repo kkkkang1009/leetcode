@@ -1,4 +1,5 @@
 # 70. Climbing Stairs
+
 class Solution:
    def climbStairs(self, n: 'int') -> 'int':
        if n == 1:
