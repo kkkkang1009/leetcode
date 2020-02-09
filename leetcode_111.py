@@ -1,4 +1,5 @@
 # 111. Minimum Depth of Binary Tree
+
 class Solution:
     minDep = 10000
 
