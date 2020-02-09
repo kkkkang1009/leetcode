@@ -1,4 +1,5 @@
 # 112. Path Sum
+
 class Solution:
     exist = False
     totalSum = 0
