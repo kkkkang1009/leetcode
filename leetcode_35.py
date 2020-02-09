@@ -1,4 +1,5 @@
 # 35. Search Insert Position
+
 class Solution:
    def searchInsert(self, nums, target):
        i = 0
