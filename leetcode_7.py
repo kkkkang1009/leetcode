@@ -1,4 +1,5 @@
 # 7. Reverse Integer
+
 class Solution:
    def reverse(self, x):
        if x > 0:
