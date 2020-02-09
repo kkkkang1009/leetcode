@@ -1,4 +1,5 @@
 # 101. Symmetric Tree
+
 class Solution:
    left, right = [], []
    def isSymmetric(self, root: TreeNode) -> bool:
