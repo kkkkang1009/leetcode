@@ -1,4 +1,5 @@
 # 20. Valid Parentheses
+
 class Solution:
    def isValid(self, s):
        n = len(s)
