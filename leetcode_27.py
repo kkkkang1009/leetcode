@@ -1,4 +1,5 @@
 # 27. Remove Element
+
 class Solution:
    def removeElement(self, nums, val):
        i = 0
