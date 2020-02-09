@@ -1,4 +1,5 @@
 # 38. Count and Say
+
 class Solution:
    def countAndSay(self, n):
        if n == 1:
