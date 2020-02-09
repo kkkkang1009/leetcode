@@ -1,4 +1,5 @@
 # 104. Maximum Depth of Binary Tree
+
 class Solution:
     maxDep = 0
     def maxDepth(self, root: TreeNode) -> int:
