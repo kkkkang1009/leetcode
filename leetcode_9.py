@@ -1,4 +1,5 @@
 # 9. Palindrome Number
+
 class Solution:
    def isPalindrome(self, x):
        if x < 0:
