@@ -1,4 +1,5 @@
 # 83. Remove Duplicates from Sorted List
+
 class Solution:
    def deleteDuplicates(self, head: 'ListNode') -> 'ListNode':
        if head == None or head.next == None:
