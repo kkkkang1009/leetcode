@@ -1,4 +1,5 @@
 # 100. Same Tree
+
 class Solution:
    def isSameTree(self, p: TreeNode, q: TreeNode) -> bool:
        if p != None and q != None:
