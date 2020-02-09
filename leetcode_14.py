@@ -1,4 +1,5 @@
 # 14. Longest Common Prefix
+
 class Solution:
    def longestCommonPrefix(self, strs):
        short = 99999
