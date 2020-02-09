@@ -1,4 +1,5 @@
 # 21. Merge Two Sorted Lists
+
 class Solution:
    def mergeTwoLists(self, l1, l2):
        dummy = cur = ListNode(0)
