@@ -13,3 +13,27 @@ class Solution:
                     count += a[c]
                     a[c]+=1       ### to find the number of all combinations
         return count*2        ### order matters
+
+
+# 0 1 4
+# 1 0 1   -> count += 1
+# 4 1 0
+
+# 0
+# {0: 1}
+# 0
+# {0: 1, 1: 1}
+# 0
+# {0: 1, 1: 1, 4: 1}
+# 0
+# {1: 1}
+# 0
+# {1: 1, 0: 1}
+# 1
+# {1: 2, 0: 1}
+# 1
+# {4: 1}
+# 1
+# {4: 1, 1: 1}
+# 1
+# {4: 1, 1: 1, 0: 1}
